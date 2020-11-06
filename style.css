@@ -1,9 +1,9 @@
 :root {
-  --dblue: #163549
-  --blue: #0c8ca7
-  --lblue: #77c9c3
-  --white: #f3f2ec
-  --red: #d6594d
+  --dblue: #163549;
+  --blue: #0c8ca7;
+  --lblue: #77c9c3;
+  --white: #f3f2ec;
+  --red: #d6594d;
 }
 
 body {
@@ -16,6 +16,10 @@ header {
   flex-direction: row;
   justify-content: space-around;
   background-color: var(--dblue);
+}
+
+header img {
+  margin-top: 1vw;
 }
 
 nav {

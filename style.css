@@ -1,3 +1,11 @@
+:root {
+  --dblue: #163549
+  --blue: #0c8ca7
+  --lblue: #77c9c3
+  --white: #f3f2ec
+  --red: #d6594d
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -7,7 +15,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #163549;
+  background-color: var(--dblue);
 }
 
 nav {
@@ -15,11 +23,11 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   padding: 2%;
-  background-color: #163549;
+  background-color: var(--dblue);
   font-family: "Roboto";
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }

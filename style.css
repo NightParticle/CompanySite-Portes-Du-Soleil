@@ -35,3 +35,18 @@ nav a {
   text-decoration: none;
   color: var(--white);
 }
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.intro video {
+  margin: 0px;
+  padding: 0px;
+}
+
+.intro div h2 {
+  justify-self: center;
+}

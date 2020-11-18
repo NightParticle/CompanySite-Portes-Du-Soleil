@@ -9,6 +9,11 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: "Roboto";
+}
+
+p {
+  color: var(--dblue);
 }
 
 header {
@@ -47,6 +52,44 @@ nav a {
   padding: 0px;
 }
 
-.intro div h2 {
-  justify-self: center;
+.intro div {
+}
+
+.mabout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mabout-icon {
+  grid-column-start: 2;
+  text-align: center;
+  margin: 5%;
+  margin-top: 8%;
+  color: var(--dblue);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+
+.info p {
+  margin: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.s3 {
+  background-image: url(Images/Skiing_01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.s3 header {
+  color: var(--white);
 }

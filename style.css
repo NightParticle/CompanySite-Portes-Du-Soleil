@@ -41,55 +41,40 @@ nav a {
   color: var(--white);
 }
 
-.intro {
+nav a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: var(--white);
+  transition: width 0.4s;
+}
+
+nav a:hover::after {
+  width: 100%;
+  transition: width 0.4s;
+}
+
+footer {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1fr;
-}
-
-.intro video {
-  margin: 0px;
-  padding: 0px;
-}
-
-.intro div {
-}
-
-.mabout {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.mabout-icon {
-  grid-column-start: 2;
+  background-color: var(--dblue);
   text-align: center;
-  margin: 5%;
-  margin-top: 8%;
-  color: var(--dblue);
+  text-decoration: none;
+  padding-top: 5vh;
+  justify-items: center;
+  align-items: center;
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  margin-bottom: 10vh;
+footer ul {
+  list-style: none;
 }
 
-.info p {
-  margin: 2%;
-  margin-left: 15%;
-  margin-right: 15%;
+footer p {
+  color: var(--white);
 }
 
-.s3 {
-  background-image: url(Images/Skiing_01.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.s3 header {
+footer a {
   color: var(--white);
 }

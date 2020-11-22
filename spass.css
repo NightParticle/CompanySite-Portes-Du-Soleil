@@ -1,0 +1,64 @@
+h2 {
+  text-align: center;
+  color: var(--dblue);
+}
+
+h3 {
+  color: var(--dblue);
+}
+
+.p-normal {
+  text-align: center;
+}
+
+.pass {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-gap: 25px;
+  margin: 5%;
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.pass img {
+  width: 100%;
+  align-self: center;
+}
+
+.pass select {
+  width: 20vmax;
+}
+
+.pass a {
+  background-color: var(--red);
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 5%;
+  margin-top: 25px;
+  width: 10vmax;
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+  transition: ease, 0.5s;
+}
+
+.pass a:hover {
+  width: 15vmax;
+  transition: ease, 0.5s;
+}
+
+.more-info {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.more-info p {
+  text-align: center;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}

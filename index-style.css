@@ -1,0 +1,109 @@
+.intro video {
+  margin: 0px;
+  padding: 0px;
+}
+
+.intro div {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.mabout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mabout-icon {
+  grid-column-start: 2;
+  text-align: center;
+  margin: 5%;
+  margin-top: 8%;
+  color: var(--dblue);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+
+.info p {
+  margin: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+.s3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(Images/Skiing_01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--white);
+}
+
+.s3 hr {
+  border-top: 2px solid;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.s3 h2 {
+  font-size: 350%;
+}
+
+.s3 p {
+  color: var(--white);
+  margin: 5%;
+  text-align: center;
+}
+
+.s3 a {
+  background-color: var(--red);
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 5%;
+  text-decoration: none;
+  color: var(--white);
+  transition: ease, 0.5s;
+}
+
+.s3 a:hover {
+  font-size: 200%;
+  transition: ease, 0.5s;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 0px;
+}
+
+.gallery div {
+  width: 100%;
+  text-align: center;
+  background-color: var(--blue);
+  transition: ease, 0.5s;
+}
+
+.gallery div:hover {
+  background-color: var(--lblue);
+  transition: ease, 0.5s;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery p {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: var(--white);
+}
